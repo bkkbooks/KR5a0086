@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0086/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0086/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上祕法鎮宅靈符
+  date: '2015-08-28 23:35:52.366248'
+  source:
+    repository: kanripo
+    path: KR5a0086
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0086_000-ZTDZ.yaml, hash: 'sha256:b798bb200abe5ba50cdb879c163b15766892c982137e2406ef773b65bbce5022'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0086_000-ZTDZ.markers.yaml, hash: 'sha256:203c0e998cb38fc36cc158470f867ca141b575e7d3e0d9350ab2d43e550082fd'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0086_SJB_000-020180a
+    span:
+    - body
+    - 0
+    - 557
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4b7eab7fa2c4413028517d546c5cad12d3fa484c98c0ee96cb717d553e0a1c2b

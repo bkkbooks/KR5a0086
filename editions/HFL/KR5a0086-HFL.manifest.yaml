@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0086/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0086/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上祕法鎮宅靈符
+  date: '2015-08-28 23:35:52.366248'
+  source:
+    repository: kanripo
+    path: KR5a0086
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0086_000-HFL.yaml, hash: 'sha256:0c2f92b33efb0f3b75e0f44eeacd3a76cd9f801693a19237698ca100c9bc4081'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0086_000-HFL.markers.yaml, hash: 'sha256:6a1490de334cc5f565d0bfbd06999c4c349b9d0ffcb487afa84c60e9f2d190a8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0086_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 557
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b76c1f46fcfab50de6ca44fc1e8970bd136ffbbac2b70808dd0e605fff427342
